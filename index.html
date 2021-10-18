@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project1</title>
+</head>
+<link rel="stylesheet" href="pro.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+
+<style>
+    /* css reset */
+    body{
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('IMAGE/c1.png');
+        height: 900px;
+       
+    }
+    .left{
+        position: absolute;
+        left: -6px;
+        top: -27px;
+/* border: 2px solid red; */
+display: inline-block;
+    }
+    .mid{
+        display: block;
+        margin: 20px auto;
+        width: 38%;
+/* border: 2px solid goldenrod; */
+    }
+    .right{
+       
+        display: inline-block;
+        position: absolute;
+        right: 23px;
+        top: 32px;
+/* border: 2px solid yellowgreen; */
+    
+    }
+    .navbar {
+    display: inline-block;
+    
+    }
+    .navbar li{
+        
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color:black;
+        text-decoration: none;
+        padding: 28px 9px;
+        
+    }
+    .left img {
+        width: 206px;
+    }
+    .btn{
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px 9px;
+        background-color: rgb(138, 243, 208);
+        color:black;
+        padding: 4px 14px;
+        /* border: 2px solid black; */
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+       
+    }
+    .left img{
+        cursor: pointer;
+    }
+    .navbar li a:hover ,.navbar li a.active{
+        text-decoration: underline;
+        color: rgb(69, 200, 157);
+    }
+    .cointainer{
+        /* border: 2px solid black; */
+        margin: 90px 60px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+        font-size: 19px ;
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+    }
+    .formgroup input{
+        text-align: center;
+        display: block;
+        padding: 1px;
+        width: 295px;
+        /* border: 2px solid black; */
+        margin: 9px auto;
+        font-size: 26px;
+        border-radius: 8px;
+        font-family: 'Baloo Bhai 2', cursive;
+
+    }
+    .cointainer button{
+        display: block;
+        width: 149px;
+        margin: auto;
+    }
+    
+</style>
+<body>
+     <header class="header">
+         <div class="left">
+            <img src="IMAGE/1.png" alt="">
+         </div>
+         <div class="mid">
+             <ul class="navbar">
+                 <li><a href="#" class="active">HOME</a></li>
+                 <li><a href="#">ABOUT-US</a> </li>
+                 <li><a href="#"> OUR-TEAM</a></li>
+                 <li><a href="#"> PLANS </a></li>
+                    
+             </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call-us</button>
+            <button class="btn"> Email-us</button>
+        </div>
+       
+     </header>
+     <div class="cointainer">
+     <h1> join for guidance </h1>
+     <form action="noaction.php"><div class="formgroup">
+        <input type="text" name="" placeholder="Enter your name ">
+    </div>
+    <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your class ">
+    </div>
+    <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your school/college ">
+    </div>
+    <button class="btn">submit
+
+    </button>
+</form>
+    
+
+
+     </div>
+</body>
+</html>
